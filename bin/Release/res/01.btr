@@ -1,0 +1,9 @@
+single tile 0 1 0
+many 1 x 6 tile 0 0 0
+many 1 x 2 tile 1 2 0
+single tile 3 0 1
+single tile 3 0 2
+single tile 4 0 1
+single tile 2 1 0
+single tile 4 2 0
+single bot 1 0 0 rb

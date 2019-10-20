@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Botura" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/Botura" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-DSFML_STATIC" />
+			<Add directory="D:/lib/sfml242/include" />
+		</Compiler>
+		<Linker>
+			<Add library="sfml-graphics-s" />
+			<Add library="sfml-window-s" />
+			<Add library="sfml-system-s" />
+			<Add library="opengl32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="freetype" />
+			<Add library="jpeg" />
+			<Add directory="D:/lib/sfml242/lib" />
+		</Linker>
+		<Unit filename="andoperator.cpp" />
+		<Unit filename="andoperator.h" />
+		<Unit filename="assignment.cpp" />
+		<Unit filename="assignment.h" />
+		<Unit filename="binaryoperator.cpp" />
+		<Unit filename="binaryoperator.h" />
+		<Unit filename="bot.h" />
+		<Unit filename="botcontrol.cpp" />
+		<Unit filename="botcontrol.h" />
+		<Unit filename="condition.cpp" />
+		<Unit filename="condition.h" />
+		<Unit filename="data.cpp" />
+		<Unit filename="data.h" />
+		<Unit filename="databank.cpp" />
+		<Unit filename="databank.h" />
+		<Unit filename="declaration.cpp" />
+		<Unit filename="declaration.h" />
+		<Unit filename="divideoperator.cpp" />
+		<Unit filename="divideoperator.h" />
+		<Unit filename="equalsoperator.cpp" />
+		<Unit filename="equalsoperator.h" />
+		<Unit filename="event.cpp" />
+		<Unit filename="event.h" />
+		<Unit filename="expression.h" />
+		<Unit filename="function.cpp" />
+		<Unit filename="function.h" />
+		<Unit filename="functioncall.cpp" />
+		<Unit filename="functioncall.h" />
+		<Unit filename="greaterequalsoperator.cpp" />
+		<Unit filename="greaterequalsoperator.h" />
+		<Unit filename="greaterthanoperator.cpp" />
+		<Unit filename="greaterthanoperator.h" />
+		<Unit filename="initialization.cpp" />
+		<Unit filename="initialization.h" />
+		<Unit filename="lessequalsoperator.cpp" />
+		<Unit filename="lessequalsoperator.h" />
+		<Unit filename="lessthanoperator.cpp" />
+		<Unit filename="lessthanoperator.h" />
+		<Unit filename="literal.cpp" />
+		<Unit filename="literal.h" />
+		<Unit filename="logicalnot.cpp" />
+		<Unit filename="logicalnot.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="minusoperator.cpp" />
+		<Unit filename="minusoperator.h" />
+		<Unit filename="modulooperator.cpp" />
+		<Unit filename="modulooperator.h" />
+		<Unit filename="multiplyoperator.cpp" />
+		<Unit filename="multiplyoperator.h" />
+		<Unit filename="nonterminalexpression.h" />
+		<Unit filename="notequalsoperator.cpp" />
+		<Unit filename="notequalsoperator.h" />
+		<Unit filename="oroperator.cpp" />
+		<Unit filename="oroperator.h" />
+		<Unit filename="parser.cpp" />
+		<Unit filename="parser.h" />
+		<Unit filename="plusoperator.cpp" />
+		<Unit filename="plusoperator.h" />
+		<Unit filename="print.cpp" />
+		<Unit filename="print.h" />
+		<Unit filename="raise.cpp" />
+		<Unit filename="raise.h" />
+		<Unit filename="renderer.cpp" />
+		<Unit filename="renderer.h" />
+		<Unit filename="scopecontrol.cpp" />
+		<Unit filename="scopecontrol.h" />
+		<Unit filename="statement.h" />
+		<Unit filename="statementlist.cpp" />
+		<Unit filename="statementlist.h" />
+		<Unit filename="stringoperations.cpp" />
+		<Unit filename="stringoperations.h" />
+		<Unit filename="terminalexpression.cpp" />
+		<Unit filename="terminalexpression.h" />
+		<Unit filename="tile.cpp" />
+		<Unit filename="tile.h" />
+		<Unit filename="token.h" />
+		<Unit filename="unaryminus.cpp" />
+		<Unit filename="unaryminus.h" />
+		<Unit filename="unaryoperator.h" />
+		<Unit filename="variable.cpp" />
+		<Unit filename="variable.h" />
+		<Unit filename="whileloop.cpp" />
+		<Unit filename="whileloop.h" />
+		<Unit filename="world.cpp" />
+		<Unit filename="world.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

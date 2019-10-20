@@ -1,0 +1,5 @@
+*.depend
+*.exe
+*.o
+*.layout
+/Botura.txt

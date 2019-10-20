@@ -1,0 +1,29 @@
+load "res/01.btr";
+function cat listen WALL_AHEAD
+{
+jump();
+}
+function dog listen ON_EDGE
+{
+jump();
+move();
+turnLeft();
+print("hey\n");
+}
+jump();
+function bird listen END {
+	turnLeft();
+	if(14 < 4/2*(1+9) && 1)
+		print(14 + " birds\n");
+	else
+		stand();
+}
+var a = 3;
+while(a > 0)
+{
+print(a);
+a = a - 1;
+}
+/*
+jump();
+*/
